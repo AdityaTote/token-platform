@@ -4,7 +4,7 @@ import {
   WalletMultiButton,
 } from "@solana/wallet-adapter-react-ui";
 
-export const NavBar: React.FC<GridSmallBackgroundDemoProps> = () => {
+export const NavBar: React.FC = () => {
   return (
         <nav className="flex items-center justify-between py-4">
           <div className="flex-none">
